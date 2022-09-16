@@ -1,0 +1,143 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    font-family: Candara, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.container_weather{
+    width: 580px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.container_weather h1{
+    background-color: gray;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.temperature_units{
+    display: flex;
+}
+
+.c, .f{
+    width: 50%;
+    text-align: center;
+    border: 1px solid white;
+    background-color: rgb(0, 0, 255);
+}
+
+.color{
+    background-color: darkblue;
+}
+
+.item{
+    background-color: darkblue;
+    border-bottom: 1px white solid;
+}
+
+.main_information{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.city{
+    width: 75px;
+}
+
+.temperature{
+    text-align: center;
+}
+
+.weather_description{
+    text-align: center;
+}
+
+.weather_img{
+    width: 80px;
+}
+
+.weather_img img{
+    width: 100%;
+}
+
+.all_days_information{
+    width: 30px;
+}
+
+.all_days_information img{
+    width: 100%;
+    transform: rotate(-90deg);
+}
+
+.expand_information{
+    margin: 0 auto;
+    width: 30px;
+}
+
+.expand_information img{
+    width: 100%;
+}
+
+.up_arrow{
+    transform: rotate(180deg);
+}
+
+.information_container{
+    display: none;
+}
+
+.information_container_flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.department_speed{
+    border-right: 1px white solid;
+    padding-right: 20px;
+}
+
+.department_direction{
+    border-right: 1px white solid;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.department_direction div{
+ width: 30px;
+}
+
+.department_direction div img{
+    width: 100%;
+}
+
+.department_pressure{
+    border-right: 1px white solid;
+    padding-right: 20px;
+}
+
+.department_sunrise{
+    border-right: 1px white solid;
+    padding-right: 20px;
+}
