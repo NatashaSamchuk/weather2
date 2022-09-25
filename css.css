@@ -18,6 +18,7 @@ body {
 .wrapper{
     display: flex;
     justify-content: center;
+    margin-top: 10vh;
 }
 
 .container_weather{
@@ -55,7 +56,7 @@ body {
 .main_information{
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 0 25px;
     align-items: center;
 }
 
@@ -77,6 +78,40 @@ body {
 
 .weather_img img{
     width: 100%;
+}
+
+.information_day{
+    position: relative;
+}
+
+.container_angle{
+
+}
+
+.angle_right{
+    transform: rotate(-90deg);
+}
+
+.angle_left{
+    transform: rotate(90deg);
+}
+
+.container_information_day{
+    display: none;
+}
+
+.container_information_day_flex{
+    display: flex;
+    background-color: darkblue;
+    position: absolute;
+    top: -10px;
+    left: 45px;
+}
+
+.date_time{
+    width: 110px;
+    text-align: center;
+    border-right: solid wheat 1px;
 }
 
 .all_days_information{
