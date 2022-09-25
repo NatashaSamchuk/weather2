@@ -4,6 +4,7 @@ const arrayUrl = ["https://api.openweathermap.org/data/2.5/weather?id=703448&app
 
 //http://api.openweathermap.org/data/2.5/weather?id=5128638&appid=bf35cac91880cb98375230fb443a116f&units=metric
 
+
 let weather = document.querySelector(".container_weather");
 
 async function loadWeather(url) {
